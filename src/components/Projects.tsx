@@ -40,37 +40,8 @@ export function Projects() {
         rationale: "Next.js was selected for SSR and SEO.Node.js & Express.js for event driven, non-blocking I/O and allow high concurrency on a single thread. TypeScript prevents complie-time discrepancies. PostgreSQL was chosen for ACID-compliance database. Gemini 2.5 flash API selected for generate responses & act as Neighbo-AI.SSL Commerz sandbox supports payment gateway. Google OAuth for user authentication.",
         challenge: "Challenge A: Dynamic Algorithmic Feed Weighting & fast database query. \nSolution : Implemented Weighted Score Engine for feed ranking and take 100 post & 50 share post for fast query database. \n\nChallenge B: Concurrency & Callback Safety in SSLCommerz Payment. Fraud online payment callbacks create inconsistent State & concurrent double-clicks on callback redirects can trigger duplicate database inserts, creating duplicate unlock records. \nSolution: Implemented SSLCommerz payment validation using val_id. Wrapped database operations inside prisma.$transaction() to ensure atomic execution.Used status checks (status !== COMPLETED) and upsert operations to prevent duplicate processing. \n\nChallenge C: Handling Multiple Transaction Types. Routing two distinct payments model through a single payment gateway integration can result in code bloat, account mapping bugs, and accounting discrepancies. \nSolution:When a payment is initiated, it generates a unique transaction ID (tran_id) starting with P_ for plans, or U_ for post content unlocks. When the payment success callback returns, the backend inspects the transaction ID prefix. If it starts with P_ Prisma updates AdminRevenue, registers a Subscription, and upgrades User.status to PREMIUM. If it starts with U_, Prisma updates CreatorEarning and UnlockedPost to permit access.  \n\nChallenge D: PDF Invoice Crashing on Modern CSS Colors. html2canvas to screenshot the DOM. But Tailwind CSS v4 uses oklab() and oklch(). The CSS parser inside html2canvas crashed upon encountering these rules, preventing PDF generation. \nSolution: Switched to jsPDF instead of html2canvas. By using jsPDF's native drawing API (buildPdf), the invoice is compiled directly using low-level vector commands (roundedRect, text, line, etc.). This resulted in: Sharp, scalable vector-based PDFs instead of blurry canvas screenshots. Significantly smaller PDF files (usually <50 KB). \n\nChallenge E: Gemini Chat Initialization Problem. Must start with a user message. \nSolution: The backend inspects the first item in the history array. If the first message has the role model, the backend dynamically slices it out of the array before payload submission."
       }
-    },
-    {
-      id: 2,
-      title: "Starlink IoT Dashboard",
-      tagline: "Real-time telemetry parser and analytics engine.",
-      description: "An IoT monitoring dashboard that ingests live data streams from satellite modems and microcontrollers, providing bandwidth usage statistics, GPS tracking, and automatic plan renewal triggers.",
-      liveUrl: "https://example.com",
-      gitUrl: "https://github.com",
-      mediaUrl: "https://www.pexels.com/download/video/3973315/",
-      technologies: ["React", "Redux Toolkit", "Node.js", "Express", "Docker", "AWS IoT Core", "PostgreSQL"],
-      caseStudy: {
-        problem: "modem devices sent high-frequency payload logs causing severe database write locks and API response lag of up to 4 seconds.",
-        rationale: "Docker containerization ensured identical local and cloud environments, while AWS IoT Core managed high-frequency message brokering efficiently.",
-        challenge: "Ingesting 100+ telemetry payloads per second crashed the node server process. I implemented Redis streams as an ingestion buffer and batched Postgres writes, keeping API response times under 150ms."
-      }
-    },
-    {
-      id: 3,
-      title: "GlassCart E-Commerce Engine",
-      tagline: "E-Commerce logic engine with complex faceted filters.",
-      description: "A fast, headless shopping cart engine with client-side indexing, dynamic custom filter combinations, and real-time inventory checks.",
-      liveUrl: "https://example.com",
-      gitUrl: "https://github.com",
-      mediaUrl: "https://www.pexels.com/download/video/3626150/",
-      technologies: ["React", "TypeScript", "Tailwind CSS", "Express", "MongoDB", "Mongoose", "Zod"],
-      caseStudy: {
-        problem: "Standard server-side filtering caused a 1.2s page reload delay, driving a high bounce rate on products with multiple sizing and color variations.",
-        rationale: "MongoDB was utilized to handle flexible, unstructured product schema attributes (like sizes, colors, power ratings) without complex SQL joins.",
-        challenge: "Keeping client cart state synchronized with fluctuating database stock levels without slow polling. I integrated WebSockets to broadcast stock changes and validate carts instantly, raising successful conversions by 18%."
-      }
     }
+    
   ];
 
   const toggleExpand = (id: number) => {

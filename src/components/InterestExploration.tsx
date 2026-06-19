@@ -11,7 +11,7 @@ export function InterestsExplorations() {
     {
       title: "Emerging Technologies",
       description: "Beyond my professional work with web technologies, I'm passionate about exploring new fields. I dedicate my personal time to learning about Artificial Intelligence and high-performance backend systems, applying my knowledge to small personal projects.",
-      items: ["Artificial Intelligence", "High-performance backend systems", "Machine Learning"]
+      items: ["Artificial Intelligence", "RAG", "n8n", "Machine Learning"]
     }
   ];
 

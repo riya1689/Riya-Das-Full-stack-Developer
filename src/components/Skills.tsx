@@ -9,23 +9,19 @@ export function Skills() {
   const categories: SkillCategory[] = [
     {
       title: "Frontend Development",
-      items: ["React", "Next.js", "TypeScript", "JavaScript (ES6+)", "Redux Toolkit", "Zustand", "React Native"],
+      items: ["React", "Next.js", "TypeScript", "JavaScript (ES6+)", "Redux Toolkit", "Zustand"],
     },
     {
       title: "Backend & Databases",
-      items: ["Node.js", "Express.js", "PostgreSQL", "MongoDB", "Mongoose", "Prisma", "REST APIs", "GraphQL"],
+      items: ["Node.js", "Express.js", "PostgreSQL", "MongoDB", "Mongoose", "Prisma", "REST APIs"],
     },
     {
       title: "DevOps & Cloud",
-      items: ["Docker", "AWS (EC2, S3, Cognito, IoT Core)", "CI/CD", "GitHub Actions", "Vercel", "Linux VPS"],
+      items: ["Docker", "Vercel"],
     },
     {
       title: "UI & Styling",
       items: ["Tailwind CSS", "shadcn/ui", "CSS3 / Sass", "HTML5", "Framer Motion", "Figma"],
-    },
-    {
-      title: "Testing & Tools",
-      items: ["Jest", "React Testing Library", "Git", "Postman", "WebSockets", "Vite", "ESLint"],
     }
   ];
 

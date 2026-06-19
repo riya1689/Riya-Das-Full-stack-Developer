@@ -10,19 +10,16 @@ export function About() {
       </div>
       <div className="text-slate-600 dark:text-slate-400 space-y-4 leading-relaxed">
         <p>
-          I am a software engineer specializing in building robust, high-performance, and inclusive web products. 
-          I operate at the intersection of engineering and design, focusing on delivering clean, modular code alongside 
-          pixel-perfect, accessible user interfaces.
+          I am an aspiring Software Engineer with a strong foundation in C, C++, Object-Oriented Programming, Data Structures, and Algorithms. 
+          I enjoy solving complex problems, optimizing solutions, and building scalable software applications that deliver real-world value.
         </p>
         <p>
-          Currently, I lead frontend development on a core platform team, where I scale web architectures, optimize build tools, 
-          and design reusable component libraries that serve millions of daily active users. I collaborate closely with product managers, 
-          UX designers, and infrastructure teams to ensure our user experiences are fast, modern, and universally accessible.
+         My primary expertise includes JavaScript, TypeScript, Next.js, React, Node.js, Express.js, PostgreSQL, and modern web development practices. Through academic and personal projects, 
+         I have developed full-stack applications featuring RESTful APIs, JWT authentication, Role-Based Access Control (RBAC), payment gateway integrations, and third-party service integrations.
         </p>
         <p>
-          Throughout my career, I've engineered products across startup landscapes and mid-to-large-size organizations. 
-          I believe that code shouldn't just be functional—it should be optimized to drive business metrics, lower operational risk, 
-          and provide real, measurable value to end users.
+          I am passionate about designing scalable system architectures and improving application performance. Currently, I am seeking Software Engineer and Full-Stack Developer opportunities where I can contribute to impactful products, collaborate with experienced teams,
+           and continue growing as a software professional.
         </p>
       </div>
     </section>

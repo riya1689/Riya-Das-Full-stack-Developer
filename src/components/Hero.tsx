@@ -5,8 +5,8 @@ import Image from "next/image";
 import { Contact } from "./Contact";
 
 // Customize these contact links/numbers as needed
-const CONTACT_PHONE = "+8801746867293"; 
-const CONTACT_WHATSAPP = "https://wa.me/8801746867293"; 
+const CONTACT_PHONE = "+8801521583711"; 
+const CONTACT_WHATSAPP = "https://wa.me/8801521583711"; 
 //const CONTACT_FACEBOOK = "https://facebook.com/riya.das.profile"; 
 
 interface HeroProps {
@@ -25,7 +25,7 @@ export function Hero({ activeSection }: HeroProps) {
               <a href="/">Riya Das</a>
             </h1>
             <h2 className="mt-3 text-lg font-medium tracking-tight text-teal-600 dark:text-teal-400 sm:text-xl">
-              Full-Stack React & Node.js Developer
+              Software Engineer
             </h2>
             <p className="mt-4 max-w-xs leading-normal text-slate-600 dark:text-slate-400 text-sm">
               A CSE Grad. Specialized in JavaScript (Node JS, Express JS, React JS, Next JS, Typescript) | Database Management (PostgreSQL, MongoDB). AI/ML Enthusiast. Problem Solver.

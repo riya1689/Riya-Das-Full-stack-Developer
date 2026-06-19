@@ -13,13 +13,13 @@ export function Achievements() {
       field: "Competitive Programming",
       title: "Codeforces Pupil",
       description: "Achieved max 1216 ranked pupil on Codeforces.",
-      tags: ["C++", "Data structure & Algorithm", "Time & complexity"]
+      tags: ["C++", "Data structure & Algorithm", "Time & Space complexity"]
     },
     {
       field: "Competitive Programming",
       title: "Codechef",
       description: "Achieved rating 1365 on Codechef.",
-      tags: ["C++", "Data structure & Algorithm", "Time & complexity"]
+      tags: ["C++", "Data structure & Algorithm", "Time & Space complexity"]
     }
   ];
 
