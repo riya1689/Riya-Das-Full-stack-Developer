@@ -12,7 +12,7 @@ export function Achievements() {
     {
       field: "Competitive Programming",
       title: "Codeforces Pupil",
-      description: "Achieved max 1216 ranked pupil on Codeforces.",
+      description: "Achieved max 1226 ranked pupil on Codeforces.",
       tags: ["C++", "Data structure & Algorithm", "Time & Space complexity"]
     },
     {
