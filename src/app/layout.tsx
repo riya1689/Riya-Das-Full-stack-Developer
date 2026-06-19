@@ -13,9 +13,10 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Riya Das | Full-Stack Developer",
+  title: "Riya Das | Software Engineer",
   description: "Senior Full-Stack Developer specializing in React, Next.js, Node.js, TypeScript, PostgreSQL, and AWS. Building high-performance, accessible, and scalable web solutions.",
   keywords: [
+    "Software Engineer",
     "Full-Stack Developer",
     "React Developer",
     "Node.js Developer",
