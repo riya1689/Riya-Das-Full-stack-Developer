@@ -10,16 +10,15 @@ export function About() {
       </div>
       <div className="text-slate-600 dark:text-slate-400 space-y-4 leading-relaxed">
         <p>
-          I am an aspiring Software Engineer with a strong foundation in C, C++, Object-Oriented Programming, Data Structures, and Algorithms. 
-          I enjoy solving complex problems, optimizing solutions, and building scalable software applications that deliver real-world value.
+          I am a Software Engineer focused on building scalable, security-first full-stack web applications by leveraging Data Structures
+          & Algorithms (DSA) to optimize runtime efficiency and first-load performance.
         </p>
         <p>
-         My primary expertise includes JavaScript, TypeScript, Next.js, React, Node.js, Express.js, PostgreSQL, and modern web development practices. Through academic and personal projects, 
-         I have developed full-stack applications featuring RESTful APIs, JWT authentication, Role-Based Access Control (RBAC), payment gateway integrations, and third-party service integrations.
+         I architect clean, modular frontends using Next.js (App Router) and React, paired with event-driven, type-safe backends powered by Express.js and TypeScript.
+         On the data and infrastructure layer, I optimize relational and non-relational ecosystems using PostgreSQL, MongoDB, and Prisma ORM, alongside Redis for distributed caching and Docker for environment-agnostic containerization. Experienced in implementing secure authentication, third-party & API integrations using Better Auth, Stripe, SSL Commerz, Gemini AI, Google meet , and scalable state management using Redux Toolkit and Zustand.
         </p>
         <p>
-          I am passionate about designing scalable system architectures and improving application performance. Currently, I am seeking Software Engineer and Full-Stack Developer opportunities where I can contribute to impactful products, collaborate with experienced teams,
-           and continue growing as a software professional.
+         Dedicated to building scalable, maintainable systems with a strong emphasis on performance, reliability, and security.
         </p>
       </div>
     </section>

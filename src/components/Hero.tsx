@@ -95,7 +95,7 @@ export function Hero({ activeSection }: HeroProps) {
                 {/* Email */}
                 <a
                   className="text-slate-500 hover:text-slate-900 dark:text-slate-400 dark:hover:text-slate-100 transition-colors"
-                  href="mailto:riyaratri24@gmail.com"
+                  href="mailto:riya.das.dev26@gmail.com"
                   aria-label="Email"
                   title="Email"
                 >
@@ -149,7 +149,7 @@ export function Hero({ activeSection }: HeroProps) {
               <div>
                 <a
                   className="inline-flex items-center gap-1 font-semibold text-sm text-teal-600 hover:text-teal-700 dark:text-teal-400 dark:hover:text-teal-300 hover:underline transition-colors group/resume"
-                  href="https://drive.google.com/file/d/1stwsER4WUKiWAco5SG2EY3PG279uu941/view?usp=sharing"
+                  href="https://drive.google.com/file/d/1I6McMSsElrPnd63RFU55srd72YVdeJuO/view?usp=sharing"
                   target="_blank"
                   rel="noreferrer noopener"
                 >
