@@ -15,7 +15,7 @@ export function About() {
         </p>
         <p>
          I architect clean, modular frontends using Next.js (App Router) and React, paired with event-driven, type-safe backends powered by Express.js and TypeScript.
-         On the data and infrastructure layer, I optimize relational and non-relational ecosystems using PostgreSQL, MongoDB, and Prisma ORM, alongside Redis for distributed caching and Docker for environment-agnostic containerization. Experienced in implementing secure authentication, third-party & API integrations using Better Auth, Stripe, SSL Commerz, Gemini AI, Google meet , and scalable state management using Redux Toolkit and Zustand.
+         On the data and infrastructure layer, I optimize relational and non-relational ecosystems using PostgreSQL, MongoDB, and Prisma ORM, alongside Redis for distributed caching and Docker for environment-agnostic containerization. Experienced in implementing secure authentication, third-party & API integrations using Better Auth, Stripe, SSL Commerz, Gemini AI, Google meet and scalable state management using Redux Toolkit and Zustand.
         </p>
         <p>
          Dedicated to building scalable, maintainable systems with a strong emphasis on performance, reliability, and security.
