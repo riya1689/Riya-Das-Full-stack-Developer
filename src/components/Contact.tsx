@@ -21,7 +21,7 @@ export function Contact({ isSidebar = false }: { isSidebar?: boolean }) {
 
     try {
       // Connects to Formspree endpoint (submissions go to registered email automatically)
-      const response = await fetch("https://formspree.io/f/xojzjkdn", {
+      const response = await fetch("https://formspree.io/f/mgojekzv", {
         method: "POST",
         headers: {
           "Accept": "application/json",
@@ -53,8 +53,8 @@ export function Contact({ isSidebar = false }: { isSidebar?: boolean }) {
       <div className="space-y-3 text-slate-600 dark:text-slate-400 text-xs">
         <p className="leading-normal">
           I'm currently open to new opportunities, contract roles, and interesting full-stack projects. If you have a problem to solve or want to chat about a role, drop me a message or email me at{" "}
-          <a href="mailto:riyaratri24@gmail.com" className="text-teal-600 dark:text-teal-400 font-semibold transition-colors">
-            riyaratri24@gmail.com
+          <a href="mailto:riya.das.dev26@gmail.com" className="text-teal-600 dark:text-teal-400 font-semibold transition-colors">
+            riya.das.dev26@gmail.com
           </a>.
         </p>
 
@@ -151,8 +151,8 @@ export function Contact({ isSidebar = false }: { isSidebar?: boolean }) {
         <p className="text-slate-600 dark:text-slate-400 text-sm leading-relaxed">
           I'm currently open to new opportunities, contract roles, and interesting full-stack projects. 
           If you have a problem to solve or want to chat about a role, drop me a message or email me at{" "}
-          <a href="mailto:riyaratri24@gmail.com" className="text-teal-600 dark:text-teal-400 font-semibold transition-colors">
-            riyaratri24@gmail.com
+          <a href="mailto:riya.das.dev26@gmail.com" className="text-teal-600 dark:text-teal-400 font-semibold transition-colors">
+            riya.das.dev26@gmail.com
           </a>.
         </p>
 
