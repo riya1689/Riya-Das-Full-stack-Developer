@@ -7,23 +7,91 @@ interface SkillCategory {
 
 export function Skills() {
   const categories: SkillCategory[] = [
-    {
-      title: "Frontend Development",
-      items: ["React", "Next.js", "TypeScript", "JavaScript (ES6+)", "Redux Toolkit", "Zustand"],
-    },
-    {
-      title: "Backend & Databases",
-      items: ["Node.js", "Express.js", "PostgreSQL", "MongoDB", "Mongoose", "Prisma", "REST APIs"],
-    },
-    {
-      title: "DevOps & Cloud",
-      items: ["Docker", "Vercel"],
-    },
-    {
-      title: "UI & Styling",
-      items: ["Tailwind CSS", "shadcn/ui", "CSS3 / Sass", "HTML5", "Framer Motion", "Figma"],
-    }
-  ];
+  {
+  title: "Frontend Development",
+  items: [
+    "JavaScript (ES6+)",
+    "TypeScript",
+    "React",
+    "Next.js",
+    "HTML5",
+    "CSS3"
+  ],
+},
+{
+  title: "Backend & API Development",
+  items: [
+    "Node.js",
+    "Express.js",
+    "REST APIs",
+    "Axios"
+  ],
+},
+{
+  title: "Database Management",
+  items: [
+    "PostgreSQL",
+    "MongoDB"
+  ],
+},
+{
+  title: "ORM & ODM",
+  items: [
+    "Prisma ORM",
+    "Mongoose ODM"
+  ],
+},
+{
+  title: "Third-Party & API Integrations",
+  items: [
+    "Stripe",
+    "SSLCommerz",
+    "Better Auth",
+    "Gemini AI API",
+    "Google Meet API",
+    "Brevo SMTP"
+  ],
+},
+{
+  title: "Validation & State Management",
+  items: [
+    "Zod",
+    "Redux Toolkit",
+    "Zustand",
+    "Context API"
+  ],
+},
+{
+  title: "DevOps & Tooling",
+  items: [
+    "Docker",
+    "Redis",
+    "Nginx",
+    "Vercel",
+    "Git",
+    "GitHub"
+  ],
+},
+{
+  title: "UI/UX & Styling",
+  items: [
+    "Tailwind CSS",
+    "shadcn/ui",
+    "Framer Motion",
+    "Figma"
+  ],
+},
+{
+  title: "Concepts & Security",
+  items: [
+    "Data Structures & Algorithms",
+    "Time & Space Complexity Optimization",
+    "JWT Authentication",
+    "RBAC",
+    "Rate Limiting"
+  ],
+},
+];
 
   return (
     <section id="skills" className="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24" aria-label="Skills and technologies">
