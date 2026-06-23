@@ -35,7 +35,7 @@ export function Projects() {
       liveUrl: "https://ras-ems-frontend.vercel.app/",
       frontendSrcCodeUrl:"https://github.com/riya1689/RAS-academic-point-frontend",
       backendSrcCodeUrl: "https://github.com/riya1689/RAS-academic-point-backend", 
-      mediaUrl: "https://youtu.be/3MTq2i5-ICY",
+      mediaUrl: "https://youtu.be/L3qj6TMm6WQ",
       technologies: ["Next.js", "TypeScript", "Node.js", "Express.js", "PostgreSQL", "Google meet", "Prisma", "Better Auth", "Stripe", "Redis", "Docker"],
       caseStudy: {
         problem: "Traditional academic coaching centers often rely on fragmented systems for attendance tracking, classroom management, support sessions, payments, and communication. Students require real-time academic support, teachers need organized workflows, and administrators need reliable payment tracking and academic records. The platform must support concurrent users while maintaining data integrity, security, and scalability.",
